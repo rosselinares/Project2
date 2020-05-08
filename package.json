@@ -1,0 +1,17 @@
+{
+  "name": "proj2api",
+  "version": "1.0.0",
+  "description": "Project 2 API",
+  "main": "api.js",
+  "scripts": {
+    "test": "nodemon api.js"
+  },
+  "keywords": [
+    "Project",
+    "2",
+    "API",
+    "CS355"
+  ],
+  "author": "Rosse Linares",
+  "license": "ISC"
+}
