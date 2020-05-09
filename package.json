@@ -4,7 +4,11 @@
   "description": "Project 2 API",
   "main": "api.js",
   "scripts": {
-    "test": "nodemon api.js"
+    "test": "nodemon api.js",
+    "run": "node api.js"
+  },
+  "jshintConfig": {
+    "esversion": 10
   },
   "keywords": [
     "Project",
@@ -13,5 +17,15 @@
     "CS355"
   ],
   "author": "Rosse Linares",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^8.0.8",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
